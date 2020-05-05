@@ -1,4 +1,7 @@
 {% extends "layout.html" %}
+{% block title %}
+    Flask Blog - Prison Wods
+{% endblock title %}
 {% block content %}
     {% for post in posts %}
         <h1>{{ post.title }}</h1>
